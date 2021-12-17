@@ -60,4 +60,5 @@ try:
 except OverflowError:
     print("Got overflow error on calculating sum or mult")
 
+print("Odds count: %d" % calculate_odds_count(array))
 print("Run time: %f seconds" % calculate_time(time_start))
